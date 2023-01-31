@@ -11,6 +11,7 @@ module.exports = {
         "yellow-mid": "#d59834",
         "primary-yellow": "#e5a832",
         "primary-white": "#e1e1e1",
+        "light-white": "#ffff",
       },
     },
   },
