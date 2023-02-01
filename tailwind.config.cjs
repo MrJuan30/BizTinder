@@ -13,6 +13,10 @@ module.exports = {
         "primary-white": "#e1e1e1",
         "light-white": "#ffff",
       },
+      fontFamily: {
+        oswald: ["Oswald", "sans-serif;"] /*Titulos*/,
+        roboto: ["Roboto", "sans-serif;"] /*SubTitulos*/,
+      },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],
