@@ -4,7 +4,7 @@ import { FaComment, FaUserAlt, FaSistrix, FaHeart } from "react-icons/fa";
 const NavBar = () => {
     return (
         <>
-            <div className='bg-darker-black flex items-center justify-between w-full h-20 gap-x-11 fixed bottom-0 p-5 z-50'>
+            <div className='bg-primary-black flex items-center justify-between w-full h-20 gap-x-11 fixed bottom-0 p-5 z-50'>
                 <NavLink to={'/'} className='bg-primary-red  py-2 cursor-pointer text-primary-yellow text-4xl hover:text-primary-white active:text-primary-white'>
                     <FaSistrix />
                 </NavLink>
