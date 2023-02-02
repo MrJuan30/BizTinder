@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Find from './Components/Find/Find'
 import FormBusiness from './Components/FormBusiness/FormBusiness'
@@ -19,7 +19,7 @@ function App() {
         <Route path='/form-business' element={<FormBusiness />} />
 
         <Route element={<ProtectedRoutes />}>
-          <Route path='/Find' element={<Find />} />
+          <Route path='/Find' element={<Find />}/>
         </Route>
 
       </Routes>
