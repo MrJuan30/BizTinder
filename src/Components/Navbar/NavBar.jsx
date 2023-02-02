@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <>
             <div className='bg-primary-black flex items-center justify-between w-full h-20 gap-x-11 fixed bottom-0 p-5 z-50'>
-                <NavLink to={'/'} className='bg-primary-red  py-2 cursor-pointer text-primary-yellow text-4xl hover:text-primary-white active:text-primary-white'>
+                <NavLink to={'/Find'} className='bg-primary-red  py-2 cursor-pointer text-primary-yellow text-4xl hover:text-primary-white active:text-primary-white'>
                     <FaSistrix />
                 </NavLink>
                 <NavLink className='text-primary-yellow pr-4 text-3xl align-baseline hover:text-primary-white active:text-primary-white' to={'/'}>
