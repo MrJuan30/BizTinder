@@ -1,6 +1,5 @@
 import React from 'react'
 import Work1 from '../../assets/Work1.png'
-import { FaGoogle } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
 const LandingPage = () => {
@@ -16,9 +15,9 @@ const LandingPage = () => {
                     <h3 className='text-primary-white underline-offset-4 underline text-2xl font-oswald font-medium uppercase relative z-10'>¡ Facil y Rapido !</h3>
                     <br />
                     <div className='relative z-10 grid place-items-center gap-1 w-full'>
-                        <NavLink to={'/'} className='text-primary-gray flex justify-center border-primary-gray  w-full p-3 rounded-xl shadow-primary-gray shadow-xl bg-yellow-dark border-2 hover:bg-primary-white hover:border-primary-yellow capitalize font-bold'>Soy una persona</NavLink>
+                        <NavLink to={'/form-person'} className='text-primary-gray flex justify-center border-primary-gray  w-full p-3 rounded-xl shadow-primary-gray shadow-xl bg-yellow-dark border-2 hover:bg-primary-white hover:border-primary-yellow capitalize font-bold'>Soy una persona</NavLink>
                         <br />
-                        <NavLink to={'/'} className='text-primary-gray border-primary-gray  w-full p-3 rounded-xl shadow-primary-gray shadow-xl bg-primary-yellow border-2 hover:bg-primary-white hover:border-primary-yellow flex justify-center gap-2 items-center capitalize font-bold'>Soy un negocio  </NavLink>
+                        <NavLink to={'/form-business'} className='text-primary-gray border-primary-gray  w-full p-3 rounded-xl shadow-primary-gray shadow-xl bg-primary-yellow border-2 hover:bg-primary-white hover:border-primary-yellow flex justify-center gap-2 items-center capitalize font-bold'>Soy un negocio  </NavLink>
                     </div>
 
                 </div>
