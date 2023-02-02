@@ -4,6 +4,7 @@ import NavBar from '../Navbar/NavBar';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { FaStar, FaRegHeart, FaTimes } from "react-icons/fa";
 import { RxDotFilled } from 'react-icons/rx';
+import { current } from '@reduxjs/toolkit';
 
 const Find = () => {
 
@@ -23,7 +24,7 @@ const Find = () => {
     ];
 
 
-    const [currentIndex, setcurrentIndex] = useState()
+    const [currentIndex, setcurrentIndex] = useState(0)
 
     const prevSlide = () => {
         const isFirstSlide = currentIndex === 0;
